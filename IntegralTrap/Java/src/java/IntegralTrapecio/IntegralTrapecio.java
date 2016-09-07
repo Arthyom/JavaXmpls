@@ -242,7 +242,7 @@ public class IntegralTrapecio extends HttpServlet {
         // realizar la evaluacion de la funcion
         double AreaTotal = Trapezoide(LimiteA, LimiteB, NumeroRectangulos , FuncionEntrada);
         
-        // imprimir resultado
+        // imprimir resultado y terminar la pagina
         out.println( "<h2> El Area de la funcion <i> 3x<sup>2</sup> + 6x </i> para <u>" + NumeroRectangulos + "</u> Rectangulos de [ " + LimiteA + " , "+LimiteB + " ] es igual a = " + AreaTotal + "</h2>");
 
             out.println("</body>");
